@@ -23,8 +23,8 @@ my %args = (
         'Module::Build' => 0.38,
     },
 
-    name            => 'Voson-Plugin-View-Xslate',
-    module_name     => 'Voson::Plugin::View::Xslate',
+    name            => 'Nephia-Plugin-View-Xslate',
+    module_name     => 'Nephia::Plugin::View::Xslate',
     allow_pureperl => 0,
 
     script_files => [glob('script/*'), glob('bin/*')],

@@ -1,10 +1,10 @@
 # NAME
 
-Voson::Plugin::View::Xslate - A plugin for Voson that provides template mechanism
+Nephia::Plugin::View::Xslate - A plugin for Nephia that provides template mechanism
 
 # SYNOPSIS
 
-    use Voson plugins => [
+    use Nephia plugins => [
         'View::Xslate' => +{
             syntax => 'Kolon',
             path   => [ qw/ view / ],
@@ -18,7 +18,7 @@ Voson::Plugin::View::Xslate - A plugin for Voson that provides template mechanis
 
 # DESCRIPTION
 
-Voson::Plugin::View::Xslate provides render DSL for rendering template.
+Nephia::Plugin::View::Xslate provides render DSL for rendering template.
 
 # DSL
 

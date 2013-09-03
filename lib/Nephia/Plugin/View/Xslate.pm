@@ -1,8 +1,8 @@
-package Voson::Plugin::View::Xslate;
+package Nephia::Plugin::View::Xslate;
 use 5.008005;
 use strict;
 use warnings;
-use parent 'Voson::Plugin';
+use parent 'Nephia::Plugin';
 use Text::Xslate;
 use Encode;
 
@@ -35,11 +35,11 @@ __END__
 
 =head1 NAME
 
-Voson::Plugin::View::Xslate - A plugin for Voson that provides template mechanism
+Nephia::Plugin::View::Xslate - A plugin for Nephia that provides template mechanism
 
 =head1 SYNOPSIS
 
-    use Voson plugins => [
+    use Nephia plugins => [
         'View::Xslate' => +{
             syntax => 'Kolon',
             path   => [ qw/ view / ],
@@ -52,7 +52,7 @@ Voson::Plugin::View::Xslate - A plugin for Voson that provides template mechanis
 
 =head1 DESCRIPTION
 
-Voson::Plugin::View::Xslate provides render DSL for rendering template.
+Nephia::Plugin::View::Xslate provides render DSL for rendering template.
 
 =head1 DSL
 
