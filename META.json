@@ -4,7 +4,7 @@
       "ytnobody <ytnobody@gmail.com>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Minilla/v0.6.3, CPAN::Meta::Converter version 2.132140",
+   "generated_by" : "Minilla/v0.6.5, CPAN::Meta::Converter version 2.132510",
    "license" : [
       "perl_5"
    ],
@@ -42,7 +42,7 @@
       },
       "runtime" : {
          "requires" : {
-            "Nephia" : "0",
+            "Nephia" : "0.80",
             "Text::Xslate" : "0",
             "perl" : "5.008005"
          }
@@ -56,13 +56,13 @@
    "release_status" : "unstable",
    "resources" : {
       "bugtracker" : {
-         "web" : "https://github.com/ytnobody/Nephia-Plugin-View-Xslate/issues"
+         "web" : "https://github.com/nephia/Nephia-Plugin-View-Xslate/issues"
       },
-      "homepage" : "https://github.com/ytnobody/Nephia-Plugin-View-Xslate",
+      "homepage" : "https://github.com/nephia/Nephia-Plugin-View-Xslate",
       "repository" : {
          "type" : "git",
-         "url" : "git://github.com/ytnobody/Nephia-Plugin-View-Xslate.git",
-         "web" : "https://github.com/ytnobody/Nephia-Plugin-View-Xslate"
+         "url" : "git://github.com/nephia/Nephia-Plugin-View-Xslate",
+         "web" : "https://github.com/nephia/Nephia-Plugin-View-Xslate"
       }
    },
    "version" : "0.01"
